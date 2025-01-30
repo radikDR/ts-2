@@ -1,0 +1,139 @@
+* {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.title {
+  font-size: 16px;
+  /* font-weight: bold; */
+  flex: 2;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex: 1;
+}
+
+.quantity button {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.quantity button:hover {
+  background-color: #f0f0f0;
+}
+
+.quantity-value {
+  font-size: 16px;
+}
+
+.price {
+  font-size: 16px;
+  flex: 1;
+  text-align: right;
+}
+
+.total {
+  font-size: 16px;
+  flex: 1;
+  text-align: right;
+}
+
+.delete {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  background-color: #ff4444;
+  color: #fff;
+  cursor: pointer;
+}
+
+.delete:hover {
+  background-color: #cc0000;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.head {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.sum {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sum-title {
+  margin-right: 10px;
+}
+
+.sum-value {
+  color: #007bff;
+}
+
+.checkout {
+  flex: 1;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.checkout:hover {
+  background-color: #0056b3;
+}
+
+.change {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #333;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.change:hover {
+  background-color: #f0f0f0;
+  border-color: #999;
+}
